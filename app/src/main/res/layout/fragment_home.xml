@@ -1,0 +1,38 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.humungus.safaricare.fragments.homeFragment"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="@font/litsans"
+            android:textAlignment="center"
+            android:text="Safari Care"
+            android:textSize="25dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.github.anastr.speedviewlib.AwesomeSpeedometer
+        android:layout_gravity="center"
+        android:id="@+id/awesomeSpeedometer"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        app:sv_speedometerColor="#ef373"
+        app:sv_trianglesColor="#25b9b4"
+        app:sv_backgroundCircleColor="@color/colorPrimary"
+        app:sv_highSpeedColor="f44336"
+        app:sv_speedTextSize="70sp"
+        android:layout_marginBottom="55dp"/>
+
+</FrameLayout>

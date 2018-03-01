@@ -49,7 +49,7 @@
             android:paddingRight="40dp">
 
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/signupusername"
                 android:drawablePadding="10dp"
                 android:drawableLeft="@drawable/ic_person_black_24dp"
                 android:layout_width="350dp"

@@ -14,12 +14,12 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SlideViewActivity">
         </activity>
-        <activity android:name=".LoginActivitry">
+        <activity android:name=".activities.LoginActivitry">
         </activity>
-        <activity android:name=".SignUpActivity">
+        <activity android:name=".activities.SignUpActivity">
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/title_activity_main">
         </activity>
     </application>

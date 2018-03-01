@@ -1,4 +1,4 @@
-package com.example.humungus.safaricare;
+package com.example.humungus.safaricare.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 
+import com.example.humungus.safaricare.R;
 import com.example.humungus.safaricare.fragments.homeFragment;
 import com.example.humungus.safaricare.fragments.infoFragment;
 import com.example.humungus.safaricare.fragments.searchFragment;

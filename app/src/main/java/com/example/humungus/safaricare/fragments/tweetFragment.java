@@ -27,7 +27,7 @@ public class tweetFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_info,container,false);
+        View view = inflater.inflate(R.layout.fragment_tweet,container,false);
         recyclerView = view.findViewById(R.id.recycleradapter);
 
         return view;

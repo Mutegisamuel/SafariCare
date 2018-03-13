@@ -9,7 +9,7 @@
       android:id="@+id/sbholder"
       android:layout_width="match_parent"
       android:layout_height="120dp"
-      android:background="@color/colorAccent">
+      android:background="@color/colorPrimaryDark">
 
     <AutoCompleteTextView
         android:id="@+id/searchbox"

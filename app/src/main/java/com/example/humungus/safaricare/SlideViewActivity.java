@@ -53,6 +53,9 @@ public class SlideViewActivity extends AppCompatActivity {
                     mviewPager.setCurrentItem(mCurrentPage + 1);
                 }else{
                     Intent intent = new Intent(getApplicationContext(), LoginActivitry.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    finish();
+                    startActivity(intent);
                 }
             }
         });
@@ -124,7 +127,6 @@ public class SlideViewActivity extends AppCompatActivity {
                 mNextButon.setText("finish");
                 mBackButon.setText("back");
             }
-
         }
 
         @Override

@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import com.example.humungus.safaricare.R;
 import com.example.humungus.safaricare.fragments.homeFragment;
 import com.example.humungus.safaricare.fragments.infoFragment;
-import com.example.humungus.safaricare.fragments.searchFragment;
 import com.example.humungus.safaricare.fragments.tweetFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
